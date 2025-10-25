@@ -1,12 +1,10 @@
 ﻿
 using UnityEditor;
-using UnityEditor.IMGUI.Controls;
 using UnityEngine;
 using System.IO;
 using System.Linq;
-using System.Collections.Generic;
 using System.Text;
-using UnityEngine.Analytics;
+using System.Collections.Generic;
 
 namespace Knit.Localization.Editor
 {

@@ -1,8 +1,8 @@
-
+﻿
 using UnityEngine;
 using System.Diagnostics;
 
-namespace Knit.Timeline
+namespace Knit.TimelineExtension
 {
 	[Conditional( "UNITY_EDITOR")]
 	public sealed class EditorLocaleAttribute : PropertyAttribute 

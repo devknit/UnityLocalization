@@ -8,7 +8,7 @@ using System.Linq;
 using System.Collections.Generic;
 using Knit.Localization;
 
-namespace Knit.Timeline.Editor
+namespace Knit.TimelineExtension.Editor
 {
 	[CustomPropertyDrawer( typeof( EditorLocaleAttribute))]
 	sealed class EditorLocaleDrawer : PropertyDrawer 

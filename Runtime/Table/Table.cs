@@ -5,7 +5,6 @@
 using UnityEngine;
 using System.Linq;
 using System.Collections.Generic;
-using Sirenix.OdinInspector;
 
 namespace Knit.Localization
 {
@@ -68,7 +67,7 @@ namespace Knit.Localization
 		}
 		[SerializeField]
 		string m_Key;
-		[SerializeField, TableList]
+		[SerializeField]
 		List<Record> m_Records = new();
 	#if WITH_TO_DICTIONARY
 		Dictionary<string, Record> m_Dictionary;

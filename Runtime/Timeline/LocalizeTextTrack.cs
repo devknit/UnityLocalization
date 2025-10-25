@@ -1,10 +1,10 @@
-
+﻿
 using TMPro;
 using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 
-namespace Knit.Timeline
+namespace Knit.TimelineExtension
 {
 	[TrackColor( 0.0f, 0.7f, 0.9f)]
 	[TrackClipType( typeof( LocalizeTextClip))]

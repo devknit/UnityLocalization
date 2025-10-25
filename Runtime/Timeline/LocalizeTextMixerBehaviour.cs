@@ -1,10 +1,10 @@
-
+﻿
 using TMPro;
 using UnityEngine;
 using UnityEngine.Playables;
 using Knit.Localization;
 
-namespace Knit.Timeline
+namespace Knit.TimelineExtension
 {
 	sealed class LocalizeTextMixerBehaviour : PlayableBehaviour
 	{
