@@ -3,9 +3,8 @@ using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 using System.Linq;
-using Knit.Localization;
 
-namespace Knit.TimelineExtension
+namespace Knit.Localization
 {
 	[System.Serializable]
 	sealed class LocalizeTextClip : PlayableAsset, ITimelineClipAsset

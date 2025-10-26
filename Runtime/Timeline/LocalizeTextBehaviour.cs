@@ -2,9 +2,8 @@
 using System;
 using UnityEngine;
 using UnityEngine.Playables;
-using Knit.Localization;
 
-namespace Knit.TimelineExtension
+namespace Knit.Localization
 {
 	[Serializable]
 	sealed class LocalizeTextBehaviour : PlayableBehaviour

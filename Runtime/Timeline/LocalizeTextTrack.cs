@@ -3,12 +3,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using System.ComponentModel; 
 
-namespace Knit.TimelineExtension
+namespace Knit.Localization
 {
 	[TrackColor( 0.0f, 0.7f, 0.9f)]
 	[TrackClipType( typeof( LocalizeTextClip))]
 	[TrackBindingType( typeof( TMP_Text))]
+	[DisplayName( "Knit.Timeline/Localize Text Track")]
 	internal sealed class LocalizeTextTrack : TrackAsset
 	{
 		public override Playable CreateTrackMixer( PlayableGraph graph, GameObject go, int inputCount)
